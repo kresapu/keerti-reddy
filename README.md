@@ -6,10 +6,14 @@ Hi, I'm Keerti Reddy
 <br/>
 
 <p align="center">
-  <a href="https://github.com/keerti-reddy/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Health+Data+Analyst+%7C+Healthcare+ Data + Visualization + Expert;Data-Driven+Problem+Solver+%7C+Data+Analyst+Enthusiast;Transforming +Data + into + Actionable + Insights=true&width=380&height=45"></a>
+  <a href="https://github.com/keerti-reddy/readme-typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?lines=Health+Data+Analyst+%7C+Healthcare+Data+Visualization+Expert;Data-Driven+Problem+Solver+%7C+Data+Analyst+Enthusiast;Transforming+Data+into+Actionable+Insights&center=true&width=380&height=45">
+  </a>
 </p>
 <hr/>
 <samp>
+I am a dedicated Health Data Analyst with a strong foundation in healthcare data visualization, analysis, and predictive modeling. Passionate about transforming complex data into actionable insights that improve healthcare outcomes. Skilled in Python, R, SQL, and Tableau, and always exploring new technologies to push data-driven solutions forward.
+</samp>
 As a dedicated Health Data Analyst, I specialize in transforming complex healthcare data into actionable insights that drive better outcomes in health informatics and patient care. With a foundation in both clinical and data science fields, I’m passionate about leveraging data to tackle real-world healthcare challenges and enhance patient outcomes.
 
 🔍 I'm committed to building powerful data solutions within healthcare. My projects range from creating predictive models for hospital readmissions to developing automated systems for tracking mental health outcomes—all with a focus on accessibility, and improving healthcare standards.Proven ability to manage end-to-end projects, from ideation to implementation, with a focus on AI and healthcare.
