@@ -5,9 +5,7 @@ Hi, I'm Keerti Reddy
 
 <br/>
 <p align="center">
-
-  <a href="https://github.com/keerti reddy/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Health +Data+Analyst+%7C+Healthcare+ Data + Visualization + Expert;Data-Driven+Problem +Solver+%7C+Data+Analyst+Enthusiast;Transforming +Data + into + Actionable + Insights
-=true&width=380&height=45"></a>
+  <a href="https://github.com/keerti reddy/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Health+Data+Analyst+%7C+Healthcare+ Data + Visualization + Expert;Data-Driven+Problem+Solver+%7C+Data+Analyst+Enthusiast;Transforming +Data + into + Actionable + Insights=true&width=380&height=45"></a>
 </p>
 <hr/>
 <samp>
