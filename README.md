@@ -19,10 +19,6 @@ Hi, I'm Keerti Reddy
 </samp>
 
 
-<details> 
-  <summary><h2>🛠️ My Favorite Tools</h2></summary>
-  <!-- Some badges are from https://github.com/Ileriayo/markdown-badges -->
-
 <p>
 	
 ### 👨‍💻 Programming Languages
@@ -51,7 +47,9 @@ Hi, I'm Keerti Reddy
 </p>
 
 
-
+<details> 
+  <summary><h2> 🔍 My Projects and Interests </h2></summary>
+  <!-- Some badges are from https://github.com/Ileriayo/markdown-badges -->
 
 ## 🔥 Research Interests
 
