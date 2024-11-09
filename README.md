@@ -19,6 +19,40 @@ Hi, I'm Keerti Reddy
 </samp>
 
 
+<details> 
+  <summary><h2>🛠️ My Favorite Tools</h2></summary>
+  <!-- Some badges are from https://github.com/Ileriayo/markdown-badges -->
+
+<p>
+	
+### 👨‍💻 Programming Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=MySQL&logoColor=white)
+
+### 📊 Data and Machine Learning Tools
+![AWS S3 Bucket](https://img.shields.io/badge/AWS%20S3%20Bucket-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![All of Us Workbench](https://img.shields.io/badge/All%20of%20Us%20Workbench-005073?style=for-the-badge&logo=databricks&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
+![WEKA](https://img.shields.io/badge/WEKA-006BB6?style=for-the-badge&logo=dataiku&logoColor=white)
+
+### 🖥️ IDEs and Software Tools
+![R Studio](https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=rstudio&logoColor=white)
+![Visio](https://img.shields.io/badge/Visio-3955A3?style=for-the-badge&logo=microsoftvisio&logoColor=white)
+
+### 💻 Operating Systems
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+
+</p>
+
+
+
+
 ## 🔥 Research Interests
 
 -**💡 Social Determinants of Health (SDOH) Analysis**: Investigating the impact of social, economic, and environmental factors on health outcomes. 
@@ -46,7 +80,7 @@ Hi, I'm Keerti Reddy
 	<a href="https://www.linkedin.com/in/keerti-reddy/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 	<a href="mailto:Keerthy.resapu512@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
 
-</p>
+
 
 <p align="center">
   <i>Open to collaborate on Healthcare Quality projects and research opportunities!</i>
