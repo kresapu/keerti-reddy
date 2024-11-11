@@ -5,158 +5,204 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keerti Reddy's Resume</title>
     <style>
+        /* Global styling */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            color: #333;
+            background-color: #f4f4f9;
         }
+
+        /* Container and sections */
         .container {
-            width: 80%;
             max-width: 800px;
-            margin: auto;
-            background: #fff;
+            margin: 20px auto;
             padding: 20px;
+            background: #fff;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2, h3 {
-            color: #333;
+
+        h1, h2 {
+            color: #0b3d91;
         }
+
         h1 {
             text-align: center;
             font-size: 2em;
+            margin-bottom: 0;
         }
+
+        .contact-info, .section-title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        hr {
+            border: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        /* Individual sections */
         .section {
-            margin-top: 20px;
+            margin-bottom: 20px;
         }
-        .section h2 {
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
+
+        .section-title {
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: #0b3d91;
+            text-transform: uppercase;
         }
-        .section ul {
-            list-style-type: none;
+
+        .section-content {
+            margin-top: 10px;
+        }
+
+        /* List styling */
+        ul {
             padding: 0;
+            list-style: none;
         }
-        .section li {
+
+        ul li {
             margin-bottom: 10px;
         }
-        .header-info, .contact-info {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-bottom: 10px;
+
+        /* Table for skills */
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
         }
-        .contact-info a {
+
+        .skills-table th, .skills-table td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .skills-table th {
+            background-color: #f4f4f4;
+        }
+
+        /* Project descriptions */
+        .project {
+            margin-bottom: 15px;
+        }
+
+        .project-title {
+            font-weight: bold;
             color: #333;
-            text-decoration: none;
         }
-        .contact-info a:hover {
-            text-decoration: underline;
+
+        .project-description {
+            font-size: 0.9em;
+            color: #555;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <div class="header-info">
-        <h1>Keerti Reddy</h1>
-        <div class="contact-info">
-            <p>Fairfax, Virginia</p>
-            <p><a href="mailto:keerthy.resapu512@gmail.com">keerthy.resapu512@gmail.com</a> | 
-            <a href="https://linkedin.com/in/keerti-reddy" target="_blank">LinkedIn</a></p>
+    <h1>Keerti Reddy</h1>
+    <div class="contact-info">
+        <p>keerthy.resapu512@gmail.com | <a href="https://linkedin.com/in/keerti-reddy" target="_blank">linkedin.com/in/keerti-reddy</a> | Fairfax, Virginia</p>
+    </div>
+    
+    <hr>
+
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <div class="section-content">
+            <p>Dedicated Health Data Analyst with a strong foundation in health informatics, data analysis, and dental healthcare. Skilled in Python, R, SQL, and Tableau for advanced data manipulation and visualization. Experienced in utilizing healthcare standards and coding systems. Seeking to leverage technical expertise and healthcare background to drive data-driven insights in health informatics.</p>
         </div>
     </div>
 
     <div class="section">
-        <h2>Professional Summary</h2>
-        <p>Dedicated Health Data Analyst with a strong foundation in health informatics, data analysis, and dental healthcare. Skilled in Python, R, SQL, and Tableau for advanced data manipulation and visualization. Experienced in utilizing healthcare standards and coding systems. Seeking to leverage technical expertise and healthcare background to drive data-driven insights in health informatics.</p>
+        <div class="section-title">Education</div>
+        <div class="section-content">
+            <ul>
+                <li><strong>George Mason University</strong>, Masters in Health Informatics, GPA: 3.95/4 (Expected May 2025)</li>
+                <li><strong>NTR University of Health Sciences</strong>, Bachelor’s in Dentistry, GPA: 3.7/4 (October 2020)</li>
+            </ul>
+        </div>
     </div>
 
     <div class="section">
-        <h2>Education</h2>
-        <ul>
-            <li>
-                <strong>George Mason University</strong> — Masters in Health Informatics, GPA: 3.95/4<br>
-                May 2025
-            </li>
-            <li>
-                <strong>NTR University of Health Sciences</strong> — Bachelors in Dentistry, GPA: 3.7/4<br>
-                October 2020
-            </li>
-        </ul>
+        <div class="section-title">Skills</div>
+        <div class="section-content">
+            <table class="skills-table">
+                <tr>
+                    <th>Database Skills</th>
+                    <td>Data Preprocessing, Data Management, Data Mining, Data Analysis, Predictive Modeling, Data Visualization</td>
+                </tr>
+                <tr>
+                    <th>Programming Languages</th>
+                    <td>Python, R, MATLAB, SQL, HTML, Unix, Linux</td>
+                </tr>
+                <tr>
+                    <th>Software Tools</th>
+                    <td>Jupyter, Microsoft Excel, Power BI, PowerPoint, Tableau, Qualtrics, SSDMS</td>
+                </tr>
+                <tr>
+                    <th>Medical Terminology & Data Standards</th>
+                    <td>SNOMED CT, LOINC, UMLS, ICD, CPT, FHIR, HL7, EHR, HIPAA</td>
+                </tr>
+            </table>
+        </div>
     </div>
 
     <div class="section">
-        <h2>Skills</h2>
-        <ul>
-            <li><strong>Database Skills:</strong> Data Preprocessing, Data Management, Data Mining, Data Analysis, Predictive Modeling, Data Visualization</li>
-            <li><strong>Programming Languages:</strong> Python, R, MATLAB, SQL, HTML, Unix, Linux</li>
-            <li><strong>Software Tools:</strong> Jupyter, Microsoft Excel, Microsoft Power BI, Microsoft PowerPoint, Tableau, Qualtrics, SSDMS</li>
-            <li><strong>Medical Terminology and Data Standards:</strong> SNOMED CT, LOINC, UMLS, ICD, CPT, FHIR, HL7, EHR, HIPAA</li>
-        </ul>
+        <div class="section-title">Related Experience</div>
+        <div class="section-content">
+            <div class="project">
+                <p class="project-title">Endeavor Venture Fund & Venture Studio, New York | Database Management Intern</p>
+                <p class="project-description"><em>July 2024 - Present</em></p>
+                <ul>
+                    <li>Streamlined and managed the investor information database, improving data accuracy and accessibility for over 300,000 rows.</li>
+                    <li>Organized AI and Technology Summit logistics for over 1,000 attendees, achieving a 95% attendee satisfaction rate.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <p class="project-title">George Mason University, Virginia | Graduate Teaching Assistant</p>
+                <p class="project-description"><em>January 2024 - Present</em></p>
+                <ul>
+                    <li>Assisted with course delivery and supported student learning in Public Health Informatics and Introduction to Health Informatics.</li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <div class="section">
-        <h2>Related Experience</h2>
-        <ul>
-            <li>
-                <strong>Endeavor Venture Fund & Venture Studio, New York</strong> — Database Management Intern<br>
-                July 2024 - Present
+        <div class="section-title">Related Projects</div>
+        <div class="section-content">
+            <div class="project">
+                <p class="project-title">Predictive Modeling on Excess Readmission Ratio (MIMIC Data)</p>
                 <ul>
-                    <li>Streamlined and managed the investor information database, improving data accuracy for over 300,000 rows, enhancing firm’s outreach strategy.</li>
-                    <li>Organized and managed AI and Technology Summit logistics for 1,000+ attendees, achieving a 95% attendee satisfaction rate.</li>
+                    <li>Developed predictive models using logistic regression, random forests, and neural networks with balanced training methods.</li>
                 </ul>
-            </li>
-            <li>
-                <strong>George Mason University, Virginia</strong> — Graduate Teaching Assistant<br>
-                January 2024 - Present
+            </div>
+            <div class="project">
+                <p class="project-title">Predictive Modeling of Antidepressant Efficacy</p>
                 <ul>
-                    <li>Assisted in course delivery for Public Health Informatics and Introduction to Health Informatics, supporting student learning and healthcare technology integration.</li>
+                    <li>Analyzed All of Us database data to predict fluoxetine response among African American participants using LASSO regression.</li>
                 </ul>
-            </li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Related Projects</h2>
-        <ul>
-            <li>
-                <strong>Predictive Modeling on Excess Readmission Ratio (MIMIC Data)</strong> <br>
-                August 2024 - December 2024
+            </div>
+            <div class="project">
+                <p class="project-title">AI-Driven Patient Monitoring: Assessing Depression Symptoms and Outcomes</p>
                 <ul>
-                    <li>Implemented k-fold cross-validation, oversampling techniques, and machine learning models to predict readmission risks.</li>
+                    <li>Developed a PHQ-9 assessment system for evaluating depression symptoms, dispatching questionnaires and analyzing responses.</li>
                 </ul>
-            </li>
-            <li>
-                <strong>Predictive Modeling of Antidepressant Efficacy</strong> <br>
-                August 2024 - December 2024
+            </div>
+            <div class="project">
+                <p class="project-title">Data Visualization Project for Flowers Hospital</p>
                 <ul>
-                    <li>Analyzed fluoxetine response among African American participants, enhancing personalized treatment strategies using regression models and LASSO.</li>
+                    <li>Created interactive dashboards to analyze Medicare payments and track hospital performance.</li>
                 </ul>
-            </li>
-            <li>
-                <strong>AI-Driven Patient Monitoring: Assessing Depression Symptoms and Outcomes</strong> <br>
-                August 2024 - December 2024
-                <ul>
-                    <li>Developed an online PHQ-9 assessment tool, calculated Depression-Free Days for treatment insights.</li>
-                </ul>
-            </li>
-            <li>
-                <strong>Data Visualization Project for Flowers Hospital</strong> <br>
-                October 2023 - December 2023
-                <ul>
-                    <li>Created dashboards to track excess readmission ratios for CMS compliance.</li>
-                </ul>
-            </li>
-            <li>
-                <strong>Fluoride Content Analysis and Fluorosis Risk Assessment</strong> <br>
-                October 2023 - December 2023
-                <ul>
-                    <li>Developed a web interface to assess fluorosis risk, utilizing Python and AWS for water quality data analysis.</li>
-                </ul>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
 </div>
 
