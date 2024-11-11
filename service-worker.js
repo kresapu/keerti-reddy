@@ -1,5 +1,5 @@
 
-const CACHE_NAME = 'amaljith-portfolio-v2';
+const CACHE_NAME = 'keerti-portfolio-v2';
 const urlsToCache = [
   '/',
   '/index.html',
