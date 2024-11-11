@@ -10,88 +10,84 @@
     <header>
         <div class="container">
             <h1>Keerti Reddy</h1>
-            <p>Health Data Analyst | Health Informatics | Data Visualization</p>
+            <p class="subtitle">Health Data Analyst & Health Informatics Enthusiast</p>
             <nav>
                 <ul>
-                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#resume">Resume</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="about">
+    <section id="about" class="section">
         <div class="container">
             <h2>About Me</h2>
-            <p>Dedicated Health Data Analyst with a strong foundation in health informatics, data analysis, and dental healthcare. Skilled in Python, R, SQL, and Tableau for advanced data manipulation and visualization. Seeking to leverage technical expertise and healthcare background to drive data-driven insights in health informatics.</p>
-            <p><strong>Location:</strong> Fairfax, Virginia</p>
-            <p><strong>Email:</strong> keerthy.resapu512@gmail.com</p>
-            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/keerti-reddy" target="_blank">linkedin.com/in/keerti-reddy</a></p>
+            <p>I am a passionate Health Data Analyst with a background in Health Informatics and Data Analytics. My mission is to leverage data to improve healthcare outcomes and enhance clinical decision-making.</p>
+            <p>I am skilled in Python, SQL, R, and Tableau, and have worked on various projects involving predictive modeling, healthcare data analysis, and AI-driven interventions. My diverse experience spans across the healthcare and technology domains, making me well-equipped to handle complex data challenges in healthcare.</p>
         </div>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="section bg-light">
         <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Predictive Modeling on Excess Readmission Ratio (MIMIC Data)</h3>
-                <p>Description of the project goes here...</p>
-            </div>
-            <div class="project">
-                <h3>Predictive Modeling of Antidepressant Efficacy</h3>
-                <p>Description of the project goes here...</p>
-            </div>
-            <div class="project">
-                <h3>AI-Driven Patient Monitoring: Assessing Depression Symptoms and Outcomes</h3>
-                <p>Description of the project goes here...</p>
-            </div>
-            <div class="project">
-                <h3>Data Visualization Project for Flowers Hospital</h3>
-                <p>Description of the project goes here...</p>
-            </div>
-            <div class="project">
-                <h3>Fluoride Content Analysis and Fluorosis Risk Assessment</h3>
-                <p>Description of the project goes here...</p>
+            <h2>Key Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Predictive Modeling on Excess Readmission Ratio</h3>
+                    <p>Utilized data from MIMIC-III to build a model that predicts readmission risks for patients with heart diseases. This project involved data mining, predictive modeling, and building dashboards in Tableau for easy visualization of the readmission risks.</p>
+                </div>
+                <div class="project">
+                    <h3>AI-Assisted Antidepressant Efficacy Prediction</h3>
+                    <p>Developed a predictive model using data from the All of Us research program to predict antidepressant efficacy in African American populations. The project involved the use of machine learning techniques and statistical analysis.</p>
+                </div>
+                <div class="project">
+                    <h3>Fluoride Content & Fluorosis Risk Assessment</h3>
+                    <p>Analyzed the fluoride content in water and its association with fluorosis risks. The project utilized data visualization tools and provided actionable insights into public health and policy.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="section">
         <div class="container">
             <h2>Skills</h2>
-            <ul>
-                <li>Data Management & Analysis</li>
-                <li>Programming Languages: Python, R, MATLAB, SQL, HTML, Unix, Linux</li>
-                <li>Software Tools: Jupyter, Excel, Power BI, PowerPoint, Tableau, Qualtrics, SSDMS</li>
-                <li>Medical Terminology & Data Standards: SNOMED CT, LOINC, UMLS, ICD, CPT, FHIR, HL7, EHR, HIPAA</li>
-            </ul>
+            <div class="skills-list">
+                <div class="skill">
+                    <h3>Data Analysis</h3>
+                    <p>Proficient in Python, R, SQL for data manipulation, analysis, and visualization. Experienced in predictive modeling and machine learning.</p>
+                </div>
+                <div class="skill">
+                    <h3>Healthcare Data Standards</h3>
+                    <p>Knowledgeable in medical coding standards like ICD-10, LOINC, SNOMED, and experience with FHIR and HL7 data formats.</p>
+                </div>
+                <div class="skill">
+                    <h3>Visualization Tools</h3>
+                    <p>Experienced in Tableau, Power BI, and Excel for creating interactive and visually appealing data dashboards and reports.</p>
+                </div>
+                <div class="skill">
+                    <h3>Project Management</h3>
+                    <p>Strong skills in managing data-driven projects, collaborating with cross-functional teams, and ensuring timely delivery of results.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="resume">
-        <div class="container">
-            <h2>Resume</h2>
-            <p><a href="Keerti_Reddy_Resume.pdf" target="_blank">Download my Resume (PDF)</a></p>
-        </div>
-    </section>
-
-    <section id="contact">
+    <section id="contact" class="section bg-light">
         <div class="container">
             <h2>Contact</h2>
             <form action="#" method="POST">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
 
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
 
-                <button type="submit">Send Message</button>
+                <button type="submit" class="btn">Send Message</button>
             </form>
         </div>
     </section>
