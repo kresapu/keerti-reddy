@@ -1,39 +1,52 @@
+/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body and global styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
     color: #333;
 }
 
+/* Container for centering content */
 .container {
-    width: 90%;
+    width: 85%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+/* Header styling */
 header {
-    background-color: #00796b;
+    background-color: #2E7D32;
     color: white;
-    padding: 20px 0;
+    padding: 50px 0;
     text-align: center;
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header .subtitle {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 20px;
 }
 
 header nav ul {
-    list-style-type: none;
+    list-style: none;
+    margin-top: 20px;
 }
 
 header nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 header nav ul li a {
@@ -46,73 +59,119 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-section {
-    padding: 40px 0;
+/* Section styles */
+.section {
+    padding: 80px 0;
+    text-align: center;
 }
 
-section h2 {
-    font-size: 2em;
+.section.bg-light {
+    background-color: #f4f4f4;
+}
+
+h2 {
+    font-size: 2.5em;
     margin-bottom: 20px;
-    color: #00796b;
+    color: #2E7D32;
 }
 
-section p {
+p {
     font-size: 1.1em;
     margin-bottom: 20px;
+    color: #555;
+}
+
+/* Projects Section */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project {
-    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: left;
 }
 
 .project h3 {
-    font-size: 1.5em;
+    color: #2E7D32;
+    font-size: 1.4em;
     margin-bottom: 10px;
 }
 
-ul {
-    list-style-type: none;
+.project p {
+    font-size: 1em;
+    color: #777;
 }
 
-ul li {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-form {
+/* Skills Section */
+.skills-list {
     display: grid;
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.skill {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill h3 {
+    color: #2E7D32;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    color: #777;
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 form label {
-    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
 }
 
 form input, form textarea {
-    padding: 10px;
-    font-size: 1.1em;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px 0;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 5px;
+    font-size: 1em;
 }
 
-form button {
-    background-color: #00796b;
+form .btn {
+    background-color: #2E7D32;
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size: 1.1em;
     cursor: pointer;
 }
 
-form button:hover {
-    background-color: #004d40;
+form .btn:hover {
+    background-color: #1B5E20;
 }
 
+/* Footer styling */
 footer {
-    background-color: #00796b;
+    background-color: #2E7D32;
     color: white;
     text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
+    padding: 20px;
+    margin-top: 50px;
 }
