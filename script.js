@@ -12,15 +12,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Typed.js for dynamic typing effect
     new Typed("#typing-effect", {
-        strings: ["Healthcare Data Analyst", "Health Informatics Specialist", "Graduate Teaching Assistant"],
+        strings: [
+            "Healthcare Data Analyst",
+            "Health Informatics Specialist",
+            "Graduate Teaching Assistant"
+        ],
         typeSpeed: 50,
         backSpeed: 30,
         loop: true,
         smartBackspace: true
     });
-
-    // Initialize AOS (Animate On Scroll)
-    AOS.init({ duration: 1000, once: true, mirror: false });
 
     // Dark mode toggle
     const darkModeToggle = document.getElementById("darkModeToggle");
@@ -46,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
         window.scrollTo({ top: 0, behavior: "smooth" });
     });
 
-    // Skills data for D3.js visualization
+    // Skills data
     const skills = [
         { id: "Python", group: 1, label: "Python", level: 98 },
         { id: "SQL", group: 1, label: "SQL", level: 90 },
@@ -70,4 +71,39 @@ document.addEventListener("DOMContentLoaded", function() {
         .attr("fill", "steelblue")
         .append("title")
         .text(d => `${d.label} (${d.level}%)`);
+
+    // Populate projects
+    const projects = [
+        {
+            id: "hie",
+            title: "Health Information Exchange",
+            description: "Enhanced clinical workflows and data exchange practices.",
+            technologies: "Python, SQL, Tableau",
+            details: "Led projects focused on interoperability and AI-driven healthcare solutions to enhance clinical workflows."
+        },
+        {
+            id: "data-optimization",
+            title: "Data Optimization",
+            description: "Streamlined investor information database.",
+            technologies: "Apollo.io, Google Sheets",
+            details: "Improved data accuracy and accessibility, boosting outreach strategies by 20%."
+        }
+    ];
+
+    const projectsList = document.getElementById("projectsList");
+    projects.forEach(project => {
+        const div = document.createElement("div");
+        div.className = "col-md-6 col-lg-4 mb-4";
+        div.innerHTML = `
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">${project.title}</h5>
+                    <p class="card-text">${project.description}</p>
+                    <p><strong>Technologies:</strong> ${project.technologies}</p>
+                    <button class="btn btn-primary" onclick="alert('${project.details}')">Learn More</button>
+                </div>
+            </div>
+        `;
+        projectsList.appendChild(div);
+    });
 });
