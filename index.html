@@ -3,71 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keerti Reddy - Data Analyst Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Keerti Reddy's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        .skills, .projects {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .projects div, .skills div {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 6px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <h1>Keerti Reddy</h1>
-            <p>Health Data Analyst & Informatics Enthusiast</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <section id="about" class="about-section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I am a passionate Health Data Analyst with a background in Health Informatics and Data Analytics. My mission is to leverage data to improve healthcare outcomes and enhance clinical decision-making.</p>
-        </div>
+<header>
+    <h1>Keerti Reddy's Portfolio</h1>
+    <p>Keerthy.resapu512@gmail.com | <a href="https://linkedin.com/in/keerti-reddy" target="_blank">linkedin.com/in/keerti-reddy</a> | Fairfax, Virginia</p>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>Professional Summary</h2>
+        <p>Dedicated Health Data Analyst with a strong foundation in health informatics, data analysis, and dental healthcare. Skilled in Python, R, SQL, and Tableau for advanced data manipulation and visualization. Experienced in utilizing healthcare standards and coding systems. Seeking to leverage technical expertise and healthcare background to drive data-driven insights in health informatics.</p>
     </section>
 
-    <section id="projects" class="projects-section">
-        <div class="container">
-            <h2>Key Projects</h2>
-            <div class="project-cards">
-                <div class="project-card">
-                    <h3>Predictive Modeling</h3>
-                    <p>Utilized data to predict hospital readmissions and improve patient care strategies.</p>
-                </div>
-                <div class="project-card">
-                    <h3>AI for Antidepressants</h3>
-                    <p>Developed predictive models to recommend effective antidepressants for patients.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Fluoride Risk Assessment</h3>
-                    <p>Analyzed water quality and fluoride content to assess public health risks.</p>
-                </div>
+    <section>
+        <h2>Education</h2>
+        <p><strong>George Mason University</strong> – Masters in Health Informatics (Expected May 2025), GPA: 3.95/4</p>
+        <p><strong>NTR University of Health Sciences</strong> – Bachelors in Dentistry (October 2020), GPA: 3.7/4</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <div>
+                <h3>Database Skills</h3>
+                <ul>
+                    <li>Data Preprocessing</li>
+                    <li>Data Management</li>
+                    <li>Data Mining</li>
+                    <li>Data Analysis</li>
+                    <li>Predictive Modeling</li>
+                    <li>Data Visualization</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>R</li>
+                    <li>MATLAB</li>
+                    <li>SQL</li>
+                    <li>HTML</li>
+                    <li>Unix/Linux</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Software Tools</h3>
+                <ul>
+                    <li>Jupyter</li>
+                    <li>Microsoft Excel</li>
+                    <li>Microsoft Power BI</li>
+                    <li>Tableau</li>
+                    <li>Qualtrics</li>
+                    <li>SSDMs</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Medical Terminology & Data Standards</h3>
+                <ul>
+                    <li>SNOMED CT</li>
+                    <li>LOINC</li>
+                    <li>UMLS</li>
+                    <li>ICD, CPT</li>
+                    <li>FHIR, HL7</li>
+                    <li>EHR, HIPAA</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2>Contact</h2>
-            <form action="#">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+    <section>
+        <h2>Related Experience</h2>
+        <p><strong>Endeavor Venture Fund & Venture Studio, New York</strong> | Database Management Intern (July 2024 - Present)</p>
+        <ul>
+            <li>Streamlined and managed the investor information database for 300,000 rows, improving data accuracy and accessibility.</li>
+            <li>Organized and managed the AI and Technology Summit in Boston, boosting outreach and achieving a 95% attendee satisfaction rate.</li>
+        </ul>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+        <p><strong>George Mason University, Virginia</strong> | Graduate Teaching Assistant (January 2024 - Present)</p>
+        <ul>
+            <li>Assisted with course delivery, supporting student learning in health informatics concepts such as HIPAA, EHR, and technology integration.</li>
+        </ul>
+    </section>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit" class="btn">Send Message</button>
-            </form>
+    <section>
+        <h2>Related Projects</h2>
+        <div class="projects">
+            <div>
+                <h3>Predictive Modeling on Excess Readmission Ratio (MIMIC Data)</h3>
+                <p>Integrated ICD codes filtered heart failure cases, calculated length of stay, and admission intervals. Explored machine learning models like logistic regression, random forests, and neural networks.</p>
+            </div>
+            <div>
+                <h3>Predictive Modeling of Antidepressant Efficacy</h3>
+                <p>Analyzed the response to fluoxetine among African American participants in the All of Us database. Utilized LASSO regression to predict fluoxetine response.</p>
+            </div>
+            <div>
+                <h3>AI-Driven Patient Monitoring: Assessing Depression Symptoms</h3>
+                <p>Developed a system to track depression symptoms using PHQ-9 over a 4-month period. Automated email dispatch and analysis of Depression-Free Days (DFDs).</p>
+            </div>
+            <div>
+                <h3>Data Visualization Project for Flowers Hospital</h3>
+                <p>Analyzed HRRP impacts on hospital readmissions and visualized excess readmission ratios using Tableau, focusing on conditions like heart failure and pneumonia.</p>
+            </div>
+            <div>
+                <h3>Fluoride Content Analysis and Fluorosis Risk Assessment</h3>
+                <p>Created a user interface web page to assess fluorosis risk based on fluoride content in water supplies and user postal codes.</p>
+            </div>
         </div>
     </section>
 
-    <footer>
-        <p>© 2024 Keerti Reddy</p>
-    </footer>
+</div>
+
+<footer>
+    <p>&copy; 2024 Keerti Reddy. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
