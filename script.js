@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
         window.scrollTo({ top: 0, behavior: "smooth" });
     });
 
-    // Skills data
+    // Skills data for D3.js visualization
     const skills = [
         { id: "Python", group: 1, label: "Python", level: 98 },
         { id: "SQL", group: 1, label: "SQL", level: 90 },
